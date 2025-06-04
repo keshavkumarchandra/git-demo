@@ -1,0 +1,33 @@
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin: 5px 0;
+      padding: 5px 10px;
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+    }
+
+    ul, input, button {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    button {
+      cursor: pointer;
+      padding: 5px 10px;
+      background-color: red;
+      color: white;
+      border: none;
+      border-radius: 3px;
+    }
+  </style>
